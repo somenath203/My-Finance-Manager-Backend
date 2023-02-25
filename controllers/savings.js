@@ -13,7 +13,7 @@ const savingsController = async (req, res) => {
 
         res.status(StatusCodes.CREATED).send({
             success: true,
-            message: 'your budget has been fetched successfully',
+            message: 'your saving has been saved successfully',
             data: savingsCreated
         });
 
